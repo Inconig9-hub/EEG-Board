@@ -14,7 +14,7 @@ El diseño está organizado en los siguientes bloques funcionales:
 Circuito de entrada de alimentación desde USB, con etapa de carga y protección. Permite alimentar el sistema mediante una batería recargable Li-Po.
 
 ### 3V3 Regulator
-Regulador de voltaje a 3.3V, requerido por los componentes digitales como el ESP32-S3 y la pantalla OLED.
+Regulador de voltaje a 3.3V utilizado por múltiples componentes del sistema, incluyendo el microcontrolador.
 
 ### Reference Circuit
 Generador de voltaje de referencia común (a través del REF2033) utilizado tanto por el amplificador de instrumentación como por los filtros activos. Este voltaje proporciona una referencia estable de 1.65V para el correcto procesamiento de señales en sistemas de un solo riel.
@@ -48,7 +48,7 @@ Este repositorio contiene los archivos Gerber necesarios para la fabricación de
 
 ### DrillFiles
 
-- `drill_1_16.xln`: Archivo de perforado (formato Excellon) que define los agujeros en la PCB, necesarios para pines, conectores o montaje de componentes específicos.
+- `drill_1_16.xln`: Archivo de perforado (formato Excellon) que define los agujeros en la PCB, utilizados para conexiones internas, stitching y enrutamiento entre capas.
 
 ### GerberFiles
 
@@ -77,4 +77,9 @@ Estos archivos pueden ser enviados directamente a un fabricante de PCBs (como JL
 - El diseño considera una referencia virtual de 1.65V para operar correctamente con alimentación unipolar (3.3V).
 - Se sugiere utilizar electrodos pasivos con conexión TRS para una mejor compatibilidad con el sistema.
 
+## Autores
 
+- ArlynCardozo  
+- Inconig9-hub  
+- licethbolanos2005  
+- samueldavid123-gif
