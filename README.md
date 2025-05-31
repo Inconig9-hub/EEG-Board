@@ -79,7 +79,7 @@ Estos archivos pueden ser enviados directamente a un fabricante de PCBs (como JL
 
 ## Autores
 
-- @ArlynCardozo  
-- @Inconig9-hub  
-- @licethbolanos2005  
-- @samueldavid123-gif
+- Santiago Albarracín (https://github.com/Inconig9-hub)
+- Liceth Bolaños      (https://github.com/licethbolanos2005)
+- Arlyn Cardozo       (https://github.com/ArlynCardozo)
+- Samuel Guevara      (https://github.com/samueldavid123-gif)
