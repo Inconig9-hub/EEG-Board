@@ -79,7 +79,7 @@ Estos archivos pueden ser enviados directamente a un fabricante de PCBs (como JL
 
 ## Autores
 
-- ArlynCardozo  
-- Inconig9-hub  
-- licethbolanos2005  
-- samueldavid123-gif
+- @ArlynCardozo  
+- @Inconig9-hub  
+- @licethbolanos2005  
+- @samueldavid123-gif
